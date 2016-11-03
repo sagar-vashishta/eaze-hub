@@ -6,7 +6,8 @@ export default class GitHubService {
 
   getRepos(username) {
     // TODO: add pagination support
-    const url = `https://api.github.com/users/${username}/repos?per_page=100`;
+    const per_page = 50;
+    const url = `https://api.github.com/users/${username}/repos?per_page=${per_page}`;
     return this.$http.get(url);
   }
 }

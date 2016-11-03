@@ -1,9 +1,9 @@
 # eaze-hub
 
-* fetch the github repos of any user or organization
+* fetch the public github repos for any user or organization
 * built using angular, bootstrap, es6, npm, webpack, karma & jasmine
 
-## live demo
+## demo
 
 [sagarvashishta.com/eaze-hub](http://www.sagarvashishta.com/eaze-hub/)
 
@@ -19,7 +19,7 @@ $ npm install
 $ npm start
 ```
 
-* go to [http://localhost:8080](http://localhost:8080) in your browser.
+* go to [http://localhost:8080](http://localhost:8080) in your browser
 
 ## build
 
